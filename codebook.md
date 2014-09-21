@@ -19,13 +19,12 @@ Transformations performed to clean up the data:
 * grouping the data set by specified variables
 * summarising variables by specified categories
 
-The data set includes 68 variables:
-
+**The data set includes 68 variables:**
 ```
 subject (subjects labels: from 1 to 30)
 activity (activity labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 ```
-Average of each variable (included in train and test sets, but only mean and standard deviation measures) calculated for each activity and each subject:
+And average of each variable (included in train and test sets, but only mean and standard deviation measures) calculated for each activity and each subject:
 ```
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
