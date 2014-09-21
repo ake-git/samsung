@@ -6,7 +6,7 @@ The script uses dplyr package. If it's not installed on the computer, the script
 
 The script can be run as long as the Samsung data is in your working directory. So you should download the zip file (from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip), save it in your working directory and unzip it.
 
-### The stages of run_analysis.R script (also see comments included in the script):
+**The stages of run_analysis.R script (also see comments included in the script):**
 
 1. Installing dplyr library (if it hasn't been already installed).
 2. Reading training data set (X_train.txt), subjects id (subject_train.txt) and activity labels (y_train.txt) and merging all the columns.
